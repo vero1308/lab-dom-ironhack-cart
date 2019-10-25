@@ -47,7 +47,17 @@ input {
 
 .product {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 20px 40px;
+  align-items: center;
+
+
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
 
 h1 {
@@ -68,9 +78,29 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 }
 
 #calculate {
   display: flex;
   justify-content: center;
+}
+
+.product>div {
+  width: 200px;
+}
+
+#bigTotal {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 40px
+}
+.price{
+  text-align: right;
+  
+}
+
+.new-item{
+  margin-top:0px;
 }
